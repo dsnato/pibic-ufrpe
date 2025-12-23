@@ -41,9 +41,9 @@ cordeau_raw_data = """2 16 480 3 30
  32  -8.819  -4.749   3  -1    0 1440
  33   0.000   0.000   0   0    0  480"""
 
-# ---------------------------
+# --------------------------
 # 1) PARÂMETROS GERAIS DA INSTÂNCIA (serão lidos da instância Cordeau)
-# ---------------------------
+# --------------------------
 
 # Variáveis que serão preenchidas pela função de parse
 NUM_PAIRS = None
@@ -821,4 +821,5 @@ def plot_melhor_rota(best_detail, data):
 
         # Gera os gráficos: evolução do AG e a melhor rota detalhada
         plot_evolucao(history)
+
         plot_melhor_rota(best_detail, data)
