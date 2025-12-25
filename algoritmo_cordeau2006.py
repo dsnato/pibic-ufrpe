@@ -62,9 +62,9 @@ PENALTY_RIDE = 1e5     # Penalidade por violar o tempo máximo de permanência n
 PENALTY_ROUTE = 1e5    # Penalidade por violar a duração máxima da rota
 PENALTY_CAPACITY = 1e5 # Penalidade por violar a capacidade do veículo
 
-# ---------------------------
+# --------------------------
 # 2) Função para parsear instância Cordeau
-# ---------------------------
+# --------------------------
 
 def parse_cordeau_instance(raw_data_string):
     """
@@ -823,3 +823,4 @@ def plot_melhor_rota(best_detail, data):
         plot_evolucao(history)
 
         plot_melhor_rota(best_detail, data)
+
