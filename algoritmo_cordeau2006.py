@@ -157,9 +157,9 @@ VEHICLE_CAPACITY = data["capacity"]
 MAX_RIDE = data["max_ride"]
 MAX_ROUTE = data["max_route"]
 
-# ---------------------------
+# --------------------------
 # 3) Função de distância euclidiana
-# ---------------------------
+# --------------------------
 
 def euclidiana(a, b):
     """
@@ -823,4 +823,5 @@ def plot_melhor_rota(best_detail, data):
         plot_evolucao(history)
 
         plot_melhor_rota(best_detail, data)
+
 
